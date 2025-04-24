@@ -1,4 +1,4 @@
-<x-default-layout title="student" section_title="Edit student data">
+<x-default-layout title="Student" section_title="Edit student data">
     <div class="grid grid-cols-3">
         <form action="{{ route('students.update', $student->id) }}" method="POST"
             class="col-span-3 col-start-1 p-6 bg-white border border-zinc-300 shadow md:col-span-2">

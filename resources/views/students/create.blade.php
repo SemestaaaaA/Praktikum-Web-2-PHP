@@ -1,4 +1,4 @@
-<x-default-layout title="student" section_title="Add new student">
+<x-default-layout title="Student" section_title="Add new student">
     <div class="grid grid-cols-3">
         <form action="{{ route('students.store') }}" method="POST"
             class="flex flex-col gap-4 px-6 py-4 bg-white border border-zinc-300 shadow col-span-3 md:col-span-2">
