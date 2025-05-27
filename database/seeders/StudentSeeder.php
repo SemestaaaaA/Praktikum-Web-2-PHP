@@ -20,7 +20,7 @@ class StudentSeeder extends Seeder
                 'email' => 'wuuuwsh@gmail.com',
                 'phone_number' => '012345678910',
                 'birth_date' => '2004-05-09',
-                'gender' => 'Male',
+                'gender' => 'male',
                 'status' => 'Active',
                 'major_id' => 1,
             ],
